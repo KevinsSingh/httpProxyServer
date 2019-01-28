@@ -7,7 +7,7 @@ The server was implemented as a test and only supports GET and POST commands.
 
 Example Usage:
 
-**GET
+**GET**
 
 $curl -x http://localhost:8000/ http://httpbin.org/get
 
@@ -38,7 +38,7 @@ $curl -x http://localhost:8000/ http://httpbin.org/get
 }
 
 
-**POST
+**POST**
 
 $curl -d asdf=blah -x http://localhost:8000/ http://httpbin.org/post
 
